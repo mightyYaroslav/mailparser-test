@@ -3,7 +3,7 @@ const { simpleParser } = require('mailparser');
 const EmailReplyParser = require("email-reply-parser");
 
 const main = async () => {
-  const filestream = fs.createReadStream('emails/outlook-text-replies-and-attachments.eml', { encoding: 'utf-8', highWaterMark: 1000 });
+  const filestream = fs.createReadStream('emails/gmail-text-replies-and-attachments.eml', { encoding: 'utf-8', highWaterMark: 1000 });
 
   const emailContent = await new Promise((resolve, reject) => {
     let filedata = '';
@@ -42,7 +42,7 @@ const main = async () => {
 
   console.log(email.getVisibleText())
 
-  fs.writeFileSync('results/outlook-text-replies-and-attachments.txt', email.getVisibleText())
+  fs.writeFileSync('results/gmail-text-replies-and-attachments.txt', email.getVisibleText())
 }
 
 
