@@ -1,0 +1,84 @@
+{
+  attachments: [],
+  headers: Map(9) {
+    'mime-version' => '1.0',
+    'date' => 2024-02-05T14:31:17.000Z,
+    'references' => '<CA+q0L+dusEu8ndc1Fn3YSd-JjYQHcnc0HW99Qvp+FaiuNxtLAw@mail.gmail.com>',
+    'in-reply-to' => '<CA+q0L+dusEu8ndc1Fn3YSd-JjYQHcnc0HW99Qvp+FaiuNxtLAw@mail.gmail.com>',
+    'message-id' => '<CAAxTOsRrKAnN5CG5nzd=9VV_FMNk1MN8yecf6s+_w-cfEtYNZQ@mail.gmail.com>',
+    'subject' => 'Re: Hello',
+    'from' => {
+      value: [Array],
+      html: '<span class="mp_address_group"><span class="mp_address_name">Yaroslav Bai</span> &lt;<a href="mailto:yaroslav@nomadhomes.co" class="mp_address_email">yaroslav@nomadhomes.co</a>&gt;</span>',
+      text: '"Yaroslav Bai" <yaroslav@nomadhomes.co>'
+    },
+    'to' => {
+      value: [Array],
+      html: '<span class="mp_address_group"><span class="mp_address_name">&#x42F;&#x440;&#x43E;&#x441;&#x43B;&#x430;&#x432; &#x411;&#x430;&#x439;</span> &lt;<a href="mailto:yaroslavsmth@gmail.com" class="mp_address_email">yaroslavsmth@gmail.com</a>&gt;</span>',
+      text: '"Ярослав Бай" <yaroslavsmth@gmail.com>'
+    },
+    'content-type' => { value: 'multipart/alternative', params: [Object] }
+  },
+  headerLines: [
+    { key: 'mime-version', line: 'MIME-Version: 1.0' },
+    { key: 'date', line: 'Date: Mon, 5 Feb 2024 16:31:17 +0200' },
+    {
+      key: 'references',
+      line: 'References: <CA+q0L+dusEu8ndc1Fn3YSd-JjYQHcnc0HW99Qvp+FaiuNxtLAw@mail.gmail.com>'
+    },
+    {
+      key: 'in-reply-to',
+      line: 'In-Reply-To: <CA+q0L+dusEu8ndc1Fn3YSd-JjYQHcnc0HW99Qvp+FaiuNxtLAw@mail.gmail.com>'
+    },
+    {
+      key: 'message-id',
+      line: 'Message-ID: <CAAxTOsRrKAnN5CG5nzd=9VV_FMNk1MN8yecf6s+_w-cfEtYNZQ@mail.gmail.com>'
+    },
+    { key: 'subject', line: 'Subject: Re: Hello' },
+    {
+      key: 'from',
+      line: 'From: Yaroslav Bai <yaroslav@nomadhomes.co>'
+    },
+    {
+      key: 'to',
+      line: 'To: =?UTF-8?B?0K/RgNC+0YHQu9Cw0LIg0JHQsNC5?= <yaroslavsmth@gmail.com>'
+    },
+    {
+      key: 'content-type',
+      line: 'Content-Type: multipart/alternative; boundary="0000000000009599330610a35031"'
+    }
+  ],
+  html: '<div dir="ltr">Oh<br>hello<br>my<br>dear<br>friend, here is <br>a multiline reply</div><br><div class="gmail_quote"><div dir="ltr" class="gmail_attr">On Mon, Feb 5, 2024 at 4:30 PM Ярослав Бай &lt;<a href="mailto:yaroslavsmth@gmail.com">yaroslavsmth@gmail.com</a>&gt; wrote:<br></div><blockquote class="gmail_quote" style="margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex"><div dir="ltr">ALright,<br>so<br>let<br>me message<br>myself with multiple lines</div>\n' +
+    '</blockquote></div>\n',
+  text: 'Oh\n' +
+    'hello\n' +
+    'my\n' +
+    'dear\n' +
+    'friend, here is\n' +
+    'a multiline reply\n' +
+    '\n' +
+    'On Mon, Feb 5, 2024 at 4:30 PM Ярослав Бай <yaroslavsmth@gmail.com> wrote:\n' +
+    '\n' +
+    '> ALright,\n' +
+    '> so\n' +
+    '> let\n' +
+    '> me message\n' +
+    '> myself with multiple lines\n' +
+    '>\n',
+  textAsHtml: '<p>Oh<br/>hello<br/>my<br/>dear<br/>friend, here is<br/>a multiline reply</p><p>On Mon, Feb 5, 2024 at 4:30&#x202F;PM &YAcy;&rcy;&ocy;&scy;&lcy;&acy;&vcy; &Bcy;&acy;&jcy; &lt;yaroslavsmth@gmail.com&gt; wrote:</p><p>&gt; ALright,<br/>&gt; so<br/>&gt; let<br/>&gt; me message<br/>&gt; myself with multiple lines<br/>&gt;</p>',
+  subject: 'Re: Hello',
+  references: '<CA+q0L+dusEu8ndc1Fn3YSd-JjYQHcnc0HW99Qvp+FaiuNxtLAw@mail.gmail.com>',
+  date: 2024-02-05T14:31:17.000Z,
+  to: {
+    value: [ [Object] ],
+    html: '<span class="mp_address_group"><span class="mp_address_name">&#x42F;&#x440;&#x43E;&#x441;&#x43B;&#x430;&#x432; &#x411;&#x430;&#x439;</span> &lt;<a href="mailto:yaroslavsmth@gmail.com" class="mp_address_email">yaroslavsmth@gmail.com</a>&gt;</span>',
+    text: '"Ярослав Бай" <yaroslavsmth@gmail.com>'
+  },
+  from: {
+    value: [ [Object] ],
+    html: '<span class="mp_address_group"><span class="mp_address_name">Yaroslav Bai</span> &lt;<a href="mailto:yaroslav@nomadhomes.co" class="mp_address_email">yaroslav@nomadhomes.co</a>&gt;</span>',
+    text: '"Yaroslav Bai" <yaroslav@nomadhomes.co>'
+  },
+  messageId: '<CAAxTOsRrKAnN5CG5nzd=9VV_FMNk1MN8yecf6s+_w-cfEtYNZQ@mail.gmail.com>',
+  inReplyTo: '<CA+q0L+dusEu8ndc1Fn3YSd-JjYQHcnc0HW99Qvp+FaiuNxtLAw@mail.gmail.com>'
+}
